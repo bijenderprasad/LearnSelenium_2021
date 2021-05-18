@@ -5,6 +5,7 @@ public class primeNumberBetweenTwoNumber {
 	public static void main(String[] args) {
 	int start = 1;
 	int stop = 100;
+	isPrimeNumber(99);
 	findPrimeNumberBetweenTwoNumber(start,stop);
 	}
 	
