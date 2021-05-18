@@ -40,7 +40,7 @@ public class primeNumberBetweenTwoNumber {
 			}
 			start++;
 		}
-		System.out.println("Total prime within the specified range is: " + count);
+		System.out.println("Total prime within the specified range is-: " + count);
 
 	}
 
