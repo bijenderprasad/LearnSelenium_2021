@@ -2,7 +2,7 @@ package StringsProgram;
 
 import java.util.Arrays;
 
-public class anagramPrograms {
+abstract public class anagramPrograms {
 
 	public static void main(String[] args) {
 	String one = "Mother In Law";
@@ -11,6 +11,8 @@ public class anagramPrograms {
 	isAnagramWithoutUsingJavaInbuiltFunctions(one,two);
 
 	}
+	
+	 abstract void calculateArea(); 
 	
 	public static void isAnagramUsingJavaInbuiltFunctions(String one, String two) {
 		//here we are using array , then sort and compare
@@ -66,6 +68,10 @@ public class anagramPrograms {
 				System.out.println("String is not an Anagram");
 		}
 		
+	}
+	
+	public int deposit(int a, int b) {
+		return a+b;
 	}
 
 
