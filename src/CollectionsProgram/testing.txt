@@ -1,0 +1,4 @@
+txtname: xpath: \\div[@class='application']
+txtname1: xpath: \\div[@class='application1']
+txtname2: xpath: \\div[@class='application2']
+txtname3: xpath: \\div[@class='ap::::plication3']
