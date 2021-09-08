@@ -5,6 +5,10 @@ public class selectionSorting {
 	public static void main(String[] args) {
 		int[] arr =  {9,14,3,2,43,11,58,22};    
 		int n = arr.length;  
+		
+		
+		
+		display (arr);
 		for (int i = 1 ; i < n; i++) {
 			
 			int temp = arr[i];
@@ -15,14 +19,20 @@ public class selectionSorting {
 				
 			}
 			arr[j+1] = temp;
+			display(arr);
 			
 		}
-
-
 		
-		for (int x : arr) {
-			System.out.println(x);
-		}
 	}
+
+
+		public static void display(int[] arr) {
+		for (int x : arr) {
+			System.out.print(x + " ");
+		}
+		
+		System.out.println("");
+		}
+	
 
 }
