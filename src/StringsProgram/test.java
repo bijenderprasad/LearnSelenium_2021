@@ -8,6 +8,7 @@ class test {
 		sorting(name.toLowerCase().replaceAll("\\s", ""));
 	}
 
+
 	public static void countFrequency(String name) {
 		int max = 0 ;
 		char[] arr = name.toCharArray();
